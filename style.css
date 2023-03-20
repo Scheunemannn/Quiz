@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #29E7CD;
+    width:25rem;
+    height:20rem;
+    border-radius: 2rem;;
+
+}
+
+.balao {
+    border-radius: 30rem;
+    width:20rem;
+    height: 2rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    background-color: #f1daee;
+    cursor: pointer;
+}
